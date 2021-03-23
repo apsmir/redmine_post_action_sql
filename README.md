@@ -5,9 +5,17 @@ Execute SQL statement list after save issue
 ## Installation
 
 * Copy the plugin directory into the plugins directory
-* Add *.sql files into 'sql' directory
 * (Re)Start Redmine
+
+Usage
+----------------------
+* Add *.sql files into 'sql' directory
 * SQL-files will be executed after each modify issue
+
+SQL parameters
+----------------------
+You can use parameters for sql expression.
+%id% => id of the issue object
 
 ## Supported hooks
 
@@ -16,7 +24,6 @@ Currently the following hooks are supported:
 * :controller_issues_new_after_save
 * :controller_issues_edit_after_save
 
-If you want more hooks please see http://www.redmine.org/projects/redmine/wiki/Hooks_List for complete list - and send a pull request when you have forked, fixed and tested.
 
 # Todo
 
