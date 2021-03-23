@@ -1,0 +1,1 @@
+update issues set subject = 'My forced subject' where id = '%id%';
