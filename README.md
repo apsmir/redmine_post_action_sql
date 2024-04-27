@@ -7,7 +7,18 @@ Execute SQL statement list after save issue
 * Copy the plugin directory into the plugins directory
 * (Re)Start Redmine
 
-Usage
+### Supported Redmine, Ruby and Rails versions.
+
+Plugin aims to support and is tested under the following Redmine implementations:
+* Redmine 5
+
+Plugin aims to support and is tested under the following Ruby implementations:
+* Ruby 3.2.3
+
+Plugin aims to support and is tested under the following Rails implementations:
+* Rails 6.1
+
+* Usage
 ----------------------
 * Add *.sql files into 'sql' directory
 * SQL-files will be executed after each modify issue
@@ -31,4 +42,4 @@ Currently the following hooks are supported:
 
 # Licence
 
-Copyright (c) 2021 Alexey Smirnov
+Copyright (c) 2024 Alexey Smirnov

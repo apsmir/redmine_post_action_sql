@@ -1,4 +1,4 @@
-class RedminePostActionHooks < Redmine::Hook::Listener
+class RedminePostActionSql < Redmine::Hook::Listener
   def controller_issues_edit_after_save(context = { })
     execute_sql(context)
   end
